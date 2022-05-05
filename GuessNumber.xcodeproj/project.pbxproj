@@ -11,6 +11,8 @@
 		23EAD9412822DC8000D3EA41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAD9402822DC8000D3EA41 /* ContentView.swift */; };
 		23EAD9432822DC8900D3EA41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EAD9422822DC8900D3EA41 /* Assets.xcassets */; };
 		23EAD9462822DC8900D3EA41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EAD9452822DC8900D3EA41 /* Preview Assets.xcassets */; };
+		23EAD94D2822E08F00D3EA41 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAD94C2822E08F00D3EA41 /* ButtonView.swift */; };
+		23EAD96F2822ED7200D3EA41 /* ImportedSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAD96E2822ED7200D3EA41 /* ImportedSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		23EAD9402822DC8000D3EA41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23EAD9422822DC8900D3EA41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23EAD9452822DC8900D3EA41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23EAD94C2822E08F00D3EA41 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		23EAD96E2822ED7200D3EA41 /* ImportedSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportedSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				23EAD93E2822DC8000D3EA41 /* GuessNumberApp.swift */,
 				23EAD9402822DC8000D3EA41 /* ContentView.swift */,
+				23EAD94C2822E08F00D3EA41 /* ButtonView.swift */,
+				23EAD96E2822ED7200D3EA41 /* ImportedSlider.swift */,
 				23EAD9422822DC8900D3EA41 /* Assets.xcassets */,
 				23EAD9442822DC8900D3EA41 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				23EAD9412822DC8000D3EA41 /* ContentView.swift in Sources */,
 				23EAD93F2822DC8000D3EA41 /* GuessNumberApp.swift in Sources */,
+				23EAD96F2822ED7200D3EA41 /* ImportedSlider.swift in Sources */,
+				23EAD94D2822E08F00D3EA41 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
