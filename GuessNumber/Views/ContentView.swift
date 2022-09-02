@@ -16,14 +16,14 @@ struct ContentView: View {
         VStack {
             Text("Подвинь слайдер как можно ближе к: \(targetValue)")
                 .padding()
-            .font(.system(size: 12))
+                .font(.system(size: 12))
             HStack{
                 Text("0")
                 ImportedSlider(value: $currentValue, alpha: computeScore(), color: .orange)
                 Text("100")
             }
             Button("Проверь меня!") {
-            showAlert = true
+                showAlert = true
             }
             .alert("You've got \(computeScore()) score", isPresented: $showAlert) {
                 Button("OK", role: .cancel) {}

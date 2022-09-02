@@ -55,11 +55,9 @@
 		23EAD93D2822DC8000D3EA41 /* GuessNumber */ = {
 			isa = PBXGroup;
 			children = (
-				23EAD93E2822DC8000D3EA41 /* GuessNumberApp.swift */,
-				23EAD9402822DC8000D3EA41 /* ContentView.swift */,
-				23EAD94C2822E08F00D3EA41 /* ButtonView.swift */,
-				23EAD96E2822ED7200D3EA41 /* ImportedSlider.swift */,
-				23EAD9422822DC8900D3EA41 /* Assets.xcassets */,
+				23FE9B8D28C1860B009E3262 /* App */,
+				23FE9B8E28C18616009E3262 /* Views */,
+				23FE9B8F28C18621009E3262 /* Media */,
 				23EAD9442822DC8900D3EA41 /* Preview Content */,
 			);
 			path = GuessNumber;
@@ -71,6 +69,32 @@
 				23EAD9452822DC8900D3EA41 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23FE9B8D28C1860B009E3262 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				23EAD93E2822DC8000D3EA41 /* GuessNumberApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		23FE9B8E28C18616009E3262 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23EAD9402822DC8000D3EA41 /* ContentView.swift */,
+				23EAD94C2822E08F00D3EA41 /* ButtonView.swift */,
+				23EAD96E2822ED7200D3EA41 /* ImportedSlider.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		23FE9B8F28C18621009E3262 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				23EAD9422822DC8900D3EA41 /* Assets.xcassets */,
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

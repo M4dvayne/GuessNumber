@@ -24,7 +24,6 @@ struct ImportedSlider: UIViewRepresentable {
             action: #selector(Coordinator.changedValue),
             for: .valueChanged
         )
-        
         return slider
     }
     

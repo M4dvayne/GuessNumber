@@ -41,6 +41,11 @@ struct ButtonView: View {
 
 struct ButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        ButtonView(showAlert: .constant(false), thumbSliderValue: .constant(50), targetValue: .constant(50), currentValue: .constant(50))
+        ButtonView(
+            showAlert: .constant(false),
+            thumbSliderValue: .constant(50),
+            targetValue: .constant(50),
+            currentValue: .constant(50)
+        )
     }
 }
